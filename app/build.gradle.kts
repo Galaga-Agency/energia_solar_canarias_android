@@ -6,7 +6,7 @@ plugins {
 android {
     signingConfigs {
         getByName("debug") {
-            storeFile = file("/Users/nestor/Desktop/Proyectos/Firma Android Galaga/Untitled")
+            storeFile = file("${rootProject.projectDir}/keystore")
             storePassword = "Abfe04**"
             keyAlias = "galagafirma"
             keyPassword = "Abfe04**"
@@ -19,8 +19,8 @@ android {
         applicationId = "com.galaga.esc_android"
         minSdk = 24
         targetSdk = 35
-        versionCode = 5
-        versionName = "1.4"
+        versionCode = 6
+        versionName = "1.5"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }

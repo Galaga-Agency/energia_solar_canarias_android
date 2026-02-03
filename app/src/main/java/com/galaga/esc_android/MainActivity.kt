@@ -75,7 +75,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Cargar la URL
-        webView.loadUrl("https://www.app-energiasolarcanarias.com")
+        webView.loadUrl("https://app.energiasolarcanarias.com")
     }
 
     // Verifica y solicita permisos de cámara si no están concedidos
